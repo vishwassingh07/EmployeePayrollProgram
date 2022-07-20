@@ -20,4 +20,6 @@ Select * From Employee_Payroll_Table;
 Select Count(Salary) As NumberOfEmployee From Employee_Payroll_Table;
 Select Count(Salary)As Employee, Gender From Employee_Payroll_Table Group By Gender;
 Select Sum(Salary)As TotalFemaleSalary From Employee_Payroll_Table Where Gender = 'F';
+
+
    
